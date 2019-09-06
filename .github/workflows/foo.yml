@@ -21,9 +21,9 @@ jobs:
         ls
         find
         hostname
-    - name: if statement
-      run: | 
-        if [ ! -z "$CI" ]; then
-          printenv
-        else echo not ci
-        fi
+#    - name: if statement
+#      run: | 
+#        if [ ! -z "$CI" ]; then
+#          printenv
+#        else echo not ci
+#        fi
